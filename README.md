@@ -2,7 +2,6 @@
 
 This is the project starter repo for the course Server Deployment, Containerization, and Testing.
 
-
 In this project you will containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
 
 The Flask app that will be used for this project consists of a simple API with three endpoints:
@@ -14,6 +13,11 @@ The Flask app that will be used for this project consists of a simple API with t
 The app relies on a secret set as the environment variable `JWT_SECRET` to produce a JWT. The built-in Flask server is adequate for local development, but not production, so you will be using the production-ready [Gunicorn](https://gunicorn.org/) server when deploying the app.
 
 
+## EXTERNAL URL
+
+EXTERNAL-IP: a506fd1060c0d45959da3c57c8a17c0f-1910933217.us-east-2.elb.amazonaws.com
+PORTS: 80:31195/TCP
+CLUSTER-IP:  10.100.46.221
 
 ## Prerequisites
 
