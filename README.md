@@ -15,9 +15,9 @@ The app relies on a secret set as the environment variable `JWT_SECRET` to produ
 
 ## EXTERNAL URL
 
-EXTERNAL-IP: a506fd1060c0d45959da3c57c8a17c0f-1910933217.us-east-2.elb.amazonaws.com
-PORTS: 80:31195/TCP
-CLUSTER-IP:  10.100.46.221
+### EXTERNAL-IP: a506fd1060c0d45959da3c57c8a17c0f-1910933217.us-east-2.elb.amazonaws.com
+### PORTS: 80:31195/TCP
+### CLUSTER-IP:  10.100.46.221
 
 ## Prerequisites
 
